@@ -2,7 +2,7 @@
 
 > This is my resume
 
-[预览](https://lurkerc.github.io/animating-resume/)
+[预览](https://lurkerc.github.io/animating-resume/dist/)
 
 ## 使用方法
 
