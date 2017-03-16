@@ -39,7 +39,7 @@ html {
   color: rgb(222,222,222); background: rgb(40,40,35);
 }
 /* 统一一下字体 */
-body {
+body * {
   font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
 }
 /* 文字离边框太近了 */
@@ -61,6 +61,7 @@ body {
   padding: .5em;  margin: .5em;
   width: 48vw; height: 98vh;
   border: 1px solid;
+  border-radius: 6px;
   background: white; color: #222;
   overflow: auto;
 }
@@ -99,6 +100,9 @@ body {
   counter-increment: section;
   content: counters(section, ".") " ";
   margin-right: .5em;
+}
+.resumeEditor li {
+  margin: 10px 0;
 }
 .resumeEditor blockquote {
   margin: 1em;
@@ -212,7 +216,6 @@ body {
 
 <style scoped>
   #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
