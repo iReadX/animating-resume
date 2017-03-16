@@ -24,8 +24,8 @@
         fullStyle: [
           `/*
 * Inspired by http://strml.net/
-* 大家好，我是Lurker 
-* 二月了，好多公司都在招聘，你是不是也在准备简历呀。
+* 大家好，我是Lurker
+* 好多公司都在招聘，你是不是也在准备简历呀~
 * 说做就做，我也来写一份简历！
 */
 
@@ -36,7 +36,11 @@
 }
 /* 白色背景太单调了，我们来点背景 */
 html {
-  color: rgb(222,222,222); background: rgb(40,40,35); 
+  color: rgb(222,222,222); background: rgb(40,40,35);
+}
+/* 统一一下字体 */
+body {
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
 }
 /* 文字离边框太近了 */
 .styleEditor {
@@ -55,7 +59,7 @@ html {
 .resumeEditor{
   position: fixed; right: 0; top: 0;
   padding: .5em;  margin: .5em;
-  width: 48vw; height: 98vh; 
+  width: 48vw; height: 98vh;
   border: 1px solid;
   background: white; color: #222;
   overflow: auto;
@@ -92,14 +96,17 @@ html {
   counter-reset: section;
 }
 .resumeEditor ol li::before {
-  counter-increment: section;            
-  content: counters(section, ".") " ";  
+  counter-increment: section;
+  content: counters(section, ".") " ";
   margin-right: .5em;
 }
 .resumeEditor blockquote {
   margin: 1em;
   padding: .5em;
   background: #ddd;
+}
+.resumeEditor a{
+  color: #0366d6;
 }
 `],
         currentMarkdown: '',
@@ -209,11 +216,11 @@ html {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
-  
+
   html {
     min-height: 100vh;
   }
-  
+
   * {
     -webkit-transition: all .3s;
     transition: all .3s;
