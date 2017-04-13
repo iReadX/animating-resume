@@ -40,7 +40,7 @@ html {
 }
 /* 统一一下字体 */
 body * {
-  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  font-family: "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
 }
 /* 文字离边框太近了 */
 .styleEditor {
@@ -50,10 +50,10 @@ body * {
   width: 45vw; height: 98vh;
 }
 /* 代码高亮 */
-.token.selector{ color: rgb(133,153,0); }
-.token.property{ color: rgb(187,137,0); }
-.token.punctuation{ color: yellow; }
-.token.function{ color: rgb(42,161,152); }
+.token.selector{ color: rgb(166, 226, 46); }
+.token.property{ color: rgb(102, 217, 239); }
+.token.punctuation{ color: yellow; margin-left: 2px; }
+.token.function{ color: rgb(249, 38, 114); }
 
 /* 接下来我给自己准备一个编辑器 */
 .resumeEditor{
@@ -86,6 +86,7 @@ body * {
   border-bottom: 1px solid;
   margin: 1em 0 .5em;
 }
+/* 列表样式自定义 */
 .resumeEditor ul,.resumeEditor ol{
   list-style: none;
 }
@@ -93,6 +94,7 @@ body * {
   content: '•';
   margin-right: .5em;
 }
+/* CSS counter计数器 */
 .resumeEditor ol {
   counter-reset: section;
 }
@@ -109,15 +111,16 @@ body * {
   padding: .5em;
   background: #ddd;
 }
+/* a标签处理 */
 .resumeEditor a{
   color: #0366d6;
 }
 `],
         currentMarkdown: '',
-        fullMarkdown: `撸客
+        fullMarkdown: `Lurker
 ----
 
-2年前端小白，酷爱撸码。
+3年前端，酷爱撸码
 
 技能
 ----
@@ -126,20 +129,21 @@ body * {
 * javaScript、ES6
 * Vue.js、Angular.js、Backbone.js、Mui.js
 * Gulp、Webpack
+* Node.js
 * PHP
 * Linux
 
 工作经历
 ----
 
-撸个码怎么那么多废话
+只想静静地撸码
 
 链接
 ----
 
 * [GitHub](https://github.com/Lurkerc)
 
-> 如果你喜欢这个效果，Fork [我的项目](https://github.com/Lurkerc/animating-resume)，打造你自己的简历！
+> 如果你喜欢这个效果，[Fork](https://github.com/Lurkerc/animating-resume) 打造你自己的简历！
 
 `
       }

@@ -31,4 +31,8 @@
   .code {
     display: none;
   }
+  
+  pre {
+    font-size: 12px;
+  }
 </style>
