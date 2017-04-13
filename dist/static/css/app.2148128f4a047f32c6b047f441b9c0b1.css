@@ -16,6 +16,9 @@ html[data-v-288975d1] {
 .code[data-v-2ca90776] {
   display: none;
 }
+pre[data-v-2ca90776] {
+  font-size: 12px;
+}
 
 .htmlMode[data-v-2df95543] {
   animation: flip 2s;
@@ -32,4 +35,4 @@ to {
 *{box-sizing: border-box;}
 *::before{box-sizing: border-box;}
 *::after{box-sizing: border-box;}
-/*# sourceMappingURL=app.617ac463f1904a80600b57caa0402cd7.css.map*/
+/*# sourceMappingURL=app.2148128f4a047f32c6b047f441b9c0b1.css.map*/
